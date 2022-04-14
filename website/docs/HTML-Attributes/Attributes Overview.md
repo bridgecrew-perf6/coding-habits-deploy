@@ -13,5 +13,5 @@ HTML Attributes can be divided in to the following categories
 * Lanuage Attributes
 * Common Attributes
 * HTML5 Attributes
-
+* Event Attributes
 

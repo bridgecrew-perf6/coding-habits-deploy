@@ -1,10 +1,12 @@
 
+
+## Overview
 The HTML and XHTML specifications provide four main attributes that are common to
 nearly all elements and have much the same meaning for all elements. These attributes are
 class, id, style, and title.
 ## Class
 
-This attribute indicates the class or classes that a particular element belongs to. A class name might be used by a style sheet to associate style rules with multiple elements or for script access using the getElementsByClassName() method. 
+This attribute indicates the class or classes that a particular element belongs to. A class name might be used by a style sheet to associate style rules with multiple elements or for script access using the **getElementsByClassName()** method. 
 
 As an example, you could associate a special class name called “fancy” with all elements that should be rendered with a particular style named as such in a style sheet. Class values are not unique to a particular element, 
 
@@ -48,11 +50,11 @@ controls and images, the **name** attribute already serves its function. You sho
 when using both **name** and **id** together, especially when using older element syntax with
 newer styles. For example, from a linking point of view, the following markup might be
 used to set a link destination:
-`<a name="anchorPoint"></a>`
+**`<a name="anchorPoint"></a>`**
 At some other point in the document, an **id** with the same named value might exist, like so:
-`<p id="anchorPoint">I am the same destination?</p>`
+**`<p id="anchorPoint">I am the same destination?</p>`**
 There is some uncertainty, then, about what this link would do:
-`<a href="#anchorPoint">Where do I go?</a>`
+**`<a href="#anchorPoint">Where do I go?</a>`**
 
 ## Style
 
@@ -75,7 +77,7 @@ the **title** attribute sets some message on this first paragraph.
 In some cases, such as when applied to the a element, the **title** attribute can provide
 additional help in bookmarking. Like the title for the document itself, **title** attribute
 values such as advisory information should be short, yet useful. For example,    
-`<p title="A paragraph">`    provides little information of value, whereas 
-`<p title="HTML: The Complete Reference - Title Example">` provides much more detail. The attribute can
+**`<p title="A paragraph">`**    provides little information of value, whereas 
+**`<p title="HTML: The Complete Reference - Title Example">`** provides much more detail. The attribute can
 take an arbitrary amount of text, but the wrapping and presentation of larger titles will
 likely vary
