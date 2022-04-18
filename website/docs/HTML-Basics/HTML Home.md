@@ -1,3 +1,4 @@
+
 # HTML Tutorial
 
 Let's discover **HTML in less than 5 minutes**.
@@ -21,6 +22,13 @@ With our "Try it Yourself" editor, you can edit the HTML code and view the resul
 </html>
 ```
 :::
+
+### Details element example
+
+
+
+
+
 
 ## HTML Examples
 
