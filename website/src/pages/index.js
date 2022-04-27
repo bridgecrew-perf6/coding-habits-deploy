@@ -5,6 +5,11 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Header from '../components/Header/Header';
+import Courses from '../components/Courses/Courses';
+import Blogs from '../components/Blogs/Blogs';
+import Challenges from '../components/Challenges/Challenges'
+import TextBox from '../components/TextBox/TextBox';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -31,10 +36,15 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+        <Header />
+      {/* <HomepageHeader /> */}
       <main>
-        <HomepageFeatures />
-        <HomepageFeatures />
+        <TextBox />
+        <Courses />
+        <Blogs />
+        <Challenges />
+        {/* <HomepageFeatures />
+        <HomepageFeatures /> */}
       </main>
     </Layout>
   );
