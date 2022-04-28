@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Learn to Code',
   tagline: 'with coding habits',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://codingHabits.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
