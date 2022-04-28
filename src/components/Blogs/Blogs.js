@@ -5,8 +5,8 @@ import {
   responsiveFontSizes,
   Button,
 } from "@mui/material";
-import { Box, Grid, Typography } from "@mui/material";
-import BlogCard from "./blogCard";
+import { Box, Grid} from "@mui/material";
+import BlogCard from "./BlogCard";
 import ColorGenerator from "../ColorGenerator/ColorGenerator";
 import data from "../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json";
 import Link from '@docusaurus/Link';

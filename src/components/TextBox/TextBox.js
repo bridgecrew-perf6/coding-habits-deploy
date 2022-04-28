@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Grid, Typography } from "@mui/material";
-import BackGround from "@site/static/img/backgroundimg.jpg";
 import { createTheme, ThemeProvider, responsiveFontSizes } from "@mui/material";
 
 function TextBox() {
