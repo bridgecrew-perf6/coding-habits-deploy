@@ -5,7 +5,7 @@ import React from "react";
 function BlogCard({ name, description, date, color }) {
   return (
     <Box margin="auto">
-      <Card sx={{ minWidth: 400, backgroundColor:"#171716", borderTop: `3px solid ${color}` }} raised={true}>
+      <Card sx={{backgroundColor:"#171716", borderTop: `3px solid ${color}` }} raised={true}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color={color} gutterBottom>
           {date}

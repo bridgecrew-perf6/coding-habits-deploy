@@ -4,7 +4,7 @@ import React from "react";
 function ChallengeCard({ name, description, category, color }) {
   return (
     <Box margin="auto">
-      <Card sx={{ minWidth: 400, backgroundColor:"white", borderTop: `3px solid ${color}` }} raised={true}>
+      <Card sx={{ backgroundColor:"white", borderTop: `3px solid ${color}` }} raised={true}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color={color} gutterBottom>
           {category}

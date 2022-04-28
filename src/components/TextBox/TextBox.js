@@ -9,7 +9,7 @@ function TextBox() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Box width="100vw" bgcolor="#171716" height="auto">
+        <Box width="auto" bgcolor="#171716" height="auto">
             <Grid container paddingY="4%">
                 <Grid item md={6} xs={12}>
                     <Box width="auto" display="flex" height='100%'> 
