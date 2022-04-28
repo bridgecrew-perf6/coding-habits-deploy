@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Grid, Typography } from "@mui/material";
-import BackGround from "@site/static/img/backgroundimg.jpg";
 import { createTheme, ThemeProvider, responsiveFontSizes } from "@mui/material";
 
 function Header() {
@@ -55,7 +54,7 @@ function Header() {
               >
                 <Box
                   component="img"
-                  src={BackGround}
+                  src="img/backgroundimg.jpg"
                   alt="codningHabits"
                   height="auto"
                   width="100%"

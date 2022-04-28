@@ -1,6 +1,6 @@
 import { Box, Card, CardContent, Typography } from "@mui/material";
 import React from "react";
-import Link from '@docusaurus/Link';
+
 
 function BlogCard({ name, description, date, color }) {
   return (
