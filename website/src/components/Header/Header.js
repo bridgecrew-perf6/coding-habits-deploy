@@ -25,10 +25,10 @@ function Header() {
                     <Typography color="#F0DB4F" variant="h2" fontWeight="500">
                       Learn
                     </Typography>
-                    <Typography variant="h2" fontWeight="500">
+                    <Typography variant="h2" fontWeight="500" color="white">
                       Programming
                     </Typography>
-                    <Typography variant="h2" fontWeight="500">
+                    <Typography variant="h2" fontWeight="500" color="white">
                       Interactively
                     </Typography>
                   </Box>
@@ -37,6 +37,7 @@ function Header() {
                       <Typography
                         variant="subtitle1"
                         fontSize={screen.width < 500 ? "120%" : "150%"}
+                        color="white"
                       >
                         Learn to code interactively with <Typography component="span" variant="subtitle1"  fontSize="inherit" color="#F0DB4F">codingHabits</Typography> and build
                         a great profile with our guidence to secure an awesome

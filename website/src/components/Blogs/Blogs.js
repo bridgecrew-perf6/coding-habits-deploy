@@ -8,9 +8,14 @@ import {
 import { Box, Grid, Typography } from "@mui/material";
 import BlogCard from "./blogCard";
 import ColorGenerator from "../ColorGenerator/ColorGenerator";
+import data from "../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json";
+import Link from '@docusaurus/Link';
+
 
 function Blogs() {
-  
+  let blogData = data.blogPosts;
+  console.log(blogData);
+
   const courses = [
     {
       name: "JavaScript",
@@ -74,15 +79,26 @@ function Blogs() {
             paddingX={screen.width < 400 ? "0" : "2%"}
           >
             <Grid container columnSpacing={5} rowSpacing={5}>
-              {courses.map((item, i) => (
+              {blogData.map((item, i) => (
                 <Grid item key={i} xs={12} sm={4} lg={4} display="flex">
-                  <BlogCard {...item} />
+                  <Link to={item.metadata.permalink} >
+                  <BlogCard
+                    name={item.metadata.title}
+                    date={item.metadata.formattedDate}
+                    color={ColorGenerator()}
+                    description={item.metadata.description}
+                  />
+                  </Link>
                 </Grid>
               ))}
             </Grid>
           </Box>
         </Box>
-        <Box display="flex" bgcolor="#171716" paddingY="2%"><Box margin="auto"><Button variant="text">See all blogs...</Button></Box></Box>
+        <Box display="flex" bgcolor="#171716" paddingY="2%">
+          <Box margin="auto">
+            <Button variant="text">See all blogs...</Button>
+          </Box>
+        </Box>
       </ThemeProvider>
     </>
   );
