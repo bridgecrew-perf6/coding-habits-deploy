@@ -10,7 +10,7 @@ function Header() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Box height="65vh" bgcolor="#08090b">
+        <Box height="auto" bgcolor="#08090b">
           <Grid container>
             <Grid item md={6} xs={12}>
               <Box
@@ -36,7 +36,7 @@ function Header() {
                   <Box>
                       <Typography
                         variant="subtitle1"
-                        fontSize={screen.width < 500 ? "120%" : "150%"}
+                        fontSize="150%"
                         color="white"
                       >
                         Learn to code interactively with <Typography component="span" variant="subtitle1"  fontSize="inherit" color="#F0DB4F">codingHabits</Typography> and build
@@ -47,11 +47,11 @@ function Header() {
                 </Box>
               </Box>
             </Grid>
-            <Grid item md={6} sm={0}>
+            <Grid item md={6} sm={12}>
               <Box
                 bgcolor="#08090b"
                 height="65vh"
-                display={screen.width < 500 ? "none" : "flex"}
+                display="flex"
               >
                 <Box
                   component="img"

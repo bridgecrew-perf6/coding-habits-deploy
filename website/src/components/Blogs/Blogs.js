@@ -76,7 +76,7 @@ function Blogs() {
             heigth="auto"
             paddingTop="2%"
             paddingBottom="5%"
-            paddingX={screen.width < 400 ? "0" : "2%"}
+            paddingX="1%"
           >
             <Grid container columnSpacing={5} rowSpacing={5}>
               {blogData.map((item, i) => (
